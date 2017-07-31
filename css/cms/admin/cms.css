@@ -1,0 +1,112 @@
+body,p,.p,td,ul,li,blockquote,div,pre {
+  color: #002b82;
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.ch {
+  background-color: #f8f3e6;
+  position: absolute; 
+  left:5px; 
+  top:130px; 
+  visibility: hidden; 
+  width: 170px; 
+  z-index: 66; 
+}
+.leaf { 
+  position: absolute; 
+  left:5px; 
+  top:130px; 
+  visibility: hidden; 
+  width: 170px; 
+  z-index: 66; 
+}
+.menu { color: White; }
+b { font-weight: bold; }
+.alert { color: Red; background-color: transparent; }
+.by  { font-weight: bold; color: Yellow; }
+.br, .br:hover  { font-weight: bold; color: Red;  }
+small, .small { font-size: 9px;   color: #002b82; }
+.small:hover {  font-size: 9px; }
+.r { background-color: transparent; border: none; }
+.add { color: Silver; }
+
+a {
+  color: #002b82;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: Red;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+h1, .h1 {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #002b82;
+}
+h2, .h2 {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #002b82;
+}
+h3, .h3 {
+  font-size: 12px;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #002b82;
+}
+input, select, textarea {
+  background-color: White;
+  border-top:   #013567 1px solid; 
+  border-bottom:  #013567 1px solid; 
+  border-left:  #013567 1px solid; 
+  border-right: #013567 1px solid; 
+  font-size: 10px; 
+  color: #002b82;
+  font-weight : normal;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+input.reset {
+  background-color: #B7D2F2;
+  border-top:   #002b82 1px solid; 
+  border-bottom:  #002b82 1px solid; 
+  border-left:  #002b82 1px solid; 
+  border-right: #002b82 1px solid; 
+  color:      White;
+  font-weight :   bold;
+}
+input.submit {
+  background-color: #FF1515;
+  border-top:     White 1px solid; 
+  border-bottom:  White 1px solid; 
+  border-left:    White 1px solid; 
+  border-right:     White 1px solid; 
+  font-size: 12px; 
+  color: White;
+  font-weight : bold;
+}
+input.dashed {
+  border-right: #666666 1px dashed; 
+  border-top: #666666 1px dashed; 
+  border-left: #666666 1px dashed; 
+  border-bottom: #666666 1px dashed; 
+  font-size: 12px; 
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.badValue {
+  background-color: #FF1515;
+  color : White;
+}
+
+.goodValue {
+  background:white;
+}
+

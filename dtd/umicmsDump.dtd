@@ -1,0 +1,82 @@
+<!ELEMENT siteName (#PCDATA)>
+
+<!ELEMENT domain (#PCDATA)>
+
+<!ELEMENT timestamp (#PCDATA)>
+
+<!ELEMENT RFC (#PCDATA)>
+
+<!ELEMENT UTC (#PCDATA)>
+
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT link (#PCDATA)>
+
+<!ELEMENT templateId (#PCDATA)>
+
+<!ELEMENT lang (#PCDATA)>
+
+<!ATTLIST lang prefix CDATA #REQUIRED>
+
+<!ELEMENT module (#PCDATA)>
+
+<!ELEMENT method (#PCDATA)>
+
+<!ELEMENT fieldType (#PCDATA)>
+
+<!ELEMENT isMultiple (#PCDATA)>
+
+<!ELEMENT isIndexed (#PCDATA)>
+
+<!ELEMENT isFilterable (#PCDATA)>
+
+<!ELEMENT guideId (#PCDATA)>
+
+<!ELEMENT tip (#PCDATA)>
+
+
+
+
+<!ELEMENT umicmsDump (siteName, domain, generateTime, element*, object*)>
+
+<!ELEMENT generateTime (timestamp, RFC, UTC)>
+
+<!ELEMENT updateTime (timestamp, RFC, UTC)>
+
+<!ELEMENT element (name, link, templateId, lang, domain, behaviour, updateTime?)>
+
+<!ATTLIST element id CDATA #REQUIRED
+				  parentId CDATA #REQUIRED
+				  objectId CDATA #REQUIRED
+>
+
+<!ELEMENT behaviour (title, module, method)>
+
+<!ELEMENT object (name, propertiesBlock*)>
+
+<!ATTLIST object id CDATA #REQUIRED
+				 typeId CDATA #REQUIRED
+				 isLocked CDATA #REQUIRED
+>
+
+<!ELEMENT propertiesBlock (name, title, property+)>
+
+<!ATTLIST propertiesBlock isLocked CDATA #REQUIRED
+						  isPublic CDATA #REQUIRED
+>
+
+<!ELEMENT property (name, title, fieldType, isMultiple, isIndexed, isFilterable, guideId, tip, values)>
+
+<!ATTLIST property isLocked CDATA #REQUIRED
+				   isPublic CDATA #REQUIRED
+>
+
+<!ELEMENT values (value*)>
+
+<!ELEMENT value ANY>
+
+<!ATTLIST value id CDATA #IMPLIED
+				link CDATA #IMPLIED
+>

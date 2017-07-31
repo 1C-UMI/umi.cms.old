@@ -1,0 +1,91 @@
+﻿// I18N constants
+
+// LANG: "en", ENCODING: UTF-8 | ISO-8859-1
+// Author: Mihai Bazon, http://dynarch.com/mishoo
+
+// FOR TRANSLATORS:
+//
+//   1. PLEASE PUT YOUR CONTACT INFO IN THE ABOVE LINE
+//      (at least a valid email address)
+//
+//   2. PLEASE TRY TO USE UTF-8 FOR ENCODING;
+//      (if this is not possible, please include a comment
+//       that states what encoding is necessary.)
+
+TableOperations.I18N = {
+	"Align":					  "Выравнивание",
+	"All four sides":				  "Для всех сторон",
+	"Background":					  "Фон",
+	"Baseline":                                       "Главная линия",
+	"Border":					  "Граница",
+	"Borders":					  "Границы",
+	"Bottom":                                         "Низ",
+	"CSS Style":					  "Стиль [CSS]",
+	"Caption":					  "Заголовок",
+	"Cell Properties":                                "Свойства ячейки",
+	"Center":					  "Центр",
+	"Char":                                           "Символ",
+	"Collapsed borders":                              "Сжатые границы",
+	"Color":					  "Цвет",
+	"Description":					  "Описание",
+	"FG Color":					  "Цвет текста",
+	"Float":                                          "Плавающий",
+	"Frames":					  "Фрэймы",
+	"Height":                                         "Высота",
+	"How many columns would you like to merge?":      "Сколько столюцов вы хотите слить?",
+	"How many rows would you like to merge?":         "Сколько строк вы хотите слить?",
+	"Image URL":					  "URL изображения",
+	"Justify":                                        "По ширине",
+	"Layout":					  "Компоновка",
+	"Left":						  "Слева",
+	"Margin":                                         "Внешний отступ",
+	"Middle":                                         "По-середине",
+	"No rules":					  "Без линеек",
+	"No sides":					  "Без сторон",
+	"None":                                           "Ничего",
+	"Padding":					  "Внутренний отступ",
+	"Please click into some cell":                    "Пожалуйста, кликните в какую-нибудь ячейку",
+	"Right":					  "Право",
+	"Row Properties":                                 "Свойства строки",
+	"Rules will appear between all rows and columns": "Линейки появятся между всеми строками и столбцами",
+	"Rules will appear between columns only":	  "Линейки появятся только между столбцами",
+	"Rules will appear between rows only":		  "Линейки появятся только между строками",
+	"Rules":					  "Линейки",
+	"Spacing and padding":                            "Расстояния и отступы",
+	"Spacing":					  "расстояния между ячейками",
+	"Summary":					  "Общее",
+	"TO-cell-delete":				  "Удалить ячейку",
+	"TO-cell-insert-after":				  "Вставить ячейку после",
+	"TO-cell-insert-before":			  "Вставить ячейку до",
+	"TO-cell-merge":				  "Слить ячейки",
+	"TO-cell-prop":					  "Свойства ячейки",
+	"TO-cell-split":				  "Разбить ячейку",
+	"TO-col-delete":				  "Удалить столбец",
+	"TO-col-insert-after":				  "Вставить столбец после",
+	"TO-col-insert-before":				  "Вставить столбец до",
+	"TO-col-split":					  "Разбить столбец",
+	"TO-row-delete":				  "Удалить строку",
+	"TO-row-insert-above":				  "Вставить строку выше",
+	"TO-row-insert-under":				  "Вставить строку ниже",
+	"TO-row-prop":					  "Свойства строки",
+	"TO-row-split":					  "Разбить строку",
+	"TO-table-prop":				  "Свойства таблицы",
+	"Table Properties":				  "Свойства таблицы",
+	"Text align":                                     "Выравнивание текста",
+	"The bottom side only":				  "Только нижняя сторона",
+	"The left-hand side only":			  "Только правая сторона",
+	"The right and left sides only":		  "Левая и правая сторона только",
+	"The right-hand side only":			  "Только правая сторона",
+	"The top and bottom sides only":		  "Только верхняя и нижняя сторона",
+	"The top side only":				  "Только перхняя сторона",
+	"Top":                                            "Верх",	
+	"Unset color":                                    "Убрать цвет",
+	"Vertical align":                                 "Вертикальное выравнивание",
+	"Width":					  "Ширина",
+	"not-del-last-cell":				  "HTMLArea отказывается удалять последний столбец в строке.",
+	"not-del-last-col":				  "HTMLArea отказывается удалять последний столбец в таблице.",
+	"not-del-last-row":				  "HTMLArea отказывается удялять последнюю строчку в таблице.",
+	"percent":					  "проценты",
+	"pixels":					  "пиксели",
+	"Frame and borders":				  "Таблицы и границы"
+};

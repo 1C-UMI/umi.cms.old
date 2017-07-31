@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umicmsDump>
+	<siteName><![CDATA[Тестовый сайт UMI.CMS 2.5]]></siteName>
+	<domain>http://mt-group.projects.umistudio.com/</domain>
+	<generateTimeStamp>1164880372</generateTimeStamp>
+
+	<element id="22801" parentId="22800" objectId="25750">
+		<name><![CDATA[asdasdasd]]></name>
+		<link><![CDATA[http://mt-group.projects.umistudio.com/novosti/asdasdasd/]]></link>
+
+		<templateId>2</templateId>
+		<lang prefix="ru"><![CDATA[Русский]]></lang>
+		<domain><![CDATA[mt-group.projects.umistudio.com]]></domain>
+
+		<behaviour>
+			<title><![CDATA[Публикация]]></title>
+			<module><![CDATA[news]]></module>
+			<method><![CDATA[item]]></method>
+		</behaviour>
+
+		
+	</element>
+
+
+
+	<object id="25750" typeId="23" isLocked="0">
+		<name><![CDATA[asdasdasd]]></name>
+
+		<propertiesBlock isLocked="0" isPublic="0">
+			<name><![CDATA[common]]></name>
+			<title><![CDATA[Основные]]></title>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[title]]></name>
+				<title><![CDATA[Поле TITLE]]></title>
+
+				<fieldType><![CDATA[string]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+
+				</values>
+			</property>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[h1]]></name>
+				<title><![CDATA[Поле H1]]></title>
+
+				<fieldType><![CDATA[string]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+					<value><![CDATA[asdasdasd]]></value>
+
+				</values>
+			</property>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[meta_keywords]]></name>
+				<title><![CDATA[Поле meta KEYWORDS]]></title>
+
+				<fieldType><![CDATA[string]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+
+				</values>
+			</property>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[meta_descriptions]]></name>
+				<title><![CDATA[Поле meta DESCRIPTIONS]]></title>
+
+				<fieldType><![CDATA[string]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+
+				</values>
+			</property>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[anons]]></name>
+				<title><![CDATA[Анонс]]></title>
+
+				<fieldType><![CDATA[wysiwyg]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+					<value><![CDATA[asdasdasd
+]]></value>
+
+				</values>
+			</property>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[content]]></name>
+				<title><![CDATA[Контент]]></title>
+
+				<fieldType><![CDATA[wysiwyg]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+					<value><![CDATA[
+
+gggggggggggggggggggggggggggggg<br />asdasdasd<br />asd<br />asd<br />as<br />dasd<br />
+]]></value>
+
+				</values>
+			</property>
+
+
+		</propertiesBlock>
+
+		<propertiesBlock isLocked="0" isPublic="0">
+			<name><![CDATA[item_props]]></name>
+			<title><![CDATA[Свойства публикации]]></title>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[source]]></name>
+				<title><![CDATA[Источник]]></title>
+
+				<fieldType><![CDATA[string]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+
+				</values>
+			</property>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[source_url]]></name>
+				<title><![CDATA[URL источника]]></title>
+
+				<fieldType><![CDATA[string]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+
+				</values>
+			</property>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[publish_time]]></name>
+				<title><![CDATA[Дата публикации]]></title>
+
+				<fieldType><![CDATA[date]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+					<value><![CDATA[Object id #106]]></value>
+
+				</values>
+			</property>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[begin_time]]></name>
+				<title><![CDATA[Дата начала активности]]></title>
+
+				<fieldType><![CDATA[int]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+
+				</values>
+			</property>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[end_time]]></name>
+				<title><![CDATA[Дата окончания активности]]></title>
+
+				<fieldType><![CDATA[int]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+
+				</values>
+			</property>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[anons_pic]]></name>
+				<title><![CDATA[Картинка для анонса]]></title>
+
+				<fieldType><![CDATA[img_file]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+
+				</values>
+			</property>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[publish_pic]]></name>
+				<title><![CDATA[Картинка для публикации]]></title>
+
+				<fieldType><![CDATA[img_file]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+
+				</values>
+			</property>
+
+
+		</propertiesBlock>
+
+		<propertiesBlock isLocked="0" isPublic="0">
+			<name><![CDATA[menu_view]]></name>
+			<title><![CDATA[Отображение в меню]]></title>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[menu_pic_ua]]></name>
+				<title><![CDATA[Изображение неактивного раздела]]></title>
+
+				<fieldType><![CDATA[img_file]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+
+				</values>
+			</property>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[menu_pic_a]]></name>
+				<title><![CDATA[Изображение активного раздела]]></title>
+
+				<fieldType><![CDATA[img_file]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+
+				</values>
+			</property>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[header_pic]]></name>
+				<title><![CDATA[Изображение для заголовка]]></title>
+
+				<fieldType><![CDATA[img_file]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+
+				</values>
+			</property>
+
+
+		</propertiesBlock>
+
+		<propertiesBlock isLocked="0" isPublic="0">
+			<name><![CDATA[more_params]]></name>
+			<title><![CDATA[Дополнительные параметры]]></title>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[robots_deny]]></name>
+				<title><![CDATA[Запретить индексацию поисковиками]]></title>
+
+				<fieldType><![CDATA[boolean]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+
+				</values>
+			</property>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[show_submenu]]></name>
+				<title><![CDATA[Показывать подменю]]></title>
+
+				<fieldType><![CDATA[boolean]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+
+				</values>
+			</property>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[is_expanded]]></name>
+				<title><![CDATA[Меню всегда развернуто]]></title>
+
+				<fieldType><![CDATA[boolean]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+
+				</values>
+			</property>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[is_unindexed]]></name>
+				<title><![CDATA[Исключить из поиска]]></title>
+
+				<fieldType><![CDATA[boolean]]></fieldType>
+				<isMultiple>0</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>0</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+
+				</values>
+			</property>
+
+
+		</propertiesBlock>
+
+		<propertiesBlock isLocked="0" isPublic="1">
+			<name><![CDATA[subjects_block]]></name>
+			<title><![CDATA[Сюжеты]]></title>
+
+
+			<property isLocked="0" isPublic="1">
+				<name><![CDATA[subjects]]></name>
+				<title><![CDATA[Входит в сюжеты]]></title>
+
+				<fieldType><![CDATA[relation]]></fieldType>
+				<isMultiple>1</isMultiple>
+				<isIndexed>1</isIndexed>
+				<isFilterable>1</isFilterable>
+
+				<guideId>34</guideId>
+
+				<tip><![CDATA[]]></tip>
+
+				<values>
+					<value id="25783"><![CDATA[Тестовый сюжет]]></value>
+
+				</values>
+			</property>
+
+
+		</propertiesBlock>
+
+
+	</object>
+
+</umicmsDump>

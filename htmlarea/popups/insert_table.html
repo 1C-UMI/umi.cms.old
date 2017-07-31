@@ -1,0 +1,173 @@
+<html>
+
+<head>
+  <title>Insert Table</title>
+
+<script type="text/javascript" src="popup.js"></script>
+
+<script type="text/javascript">
+
+window.resizeTo(400, 100);
+
+function Init() {
+  __dlg_init();
+  document.getElementById("f_rows").focus();
+};
+
+function onOK() {
+  var required = {
+    "f_rows": "Введите число строк в создаваемой таблице",
+    "f_cols": "Введите число столбцов в создаваемой таблице"
+  };
+  for (var i in required) {
+    var el = document.getElementById(i);
+    if (!el.value) {
+      alert(required[i]);
+      el.focus();
+      return false;
+    }
+  }
+  var fields = ["f_rows", "f_cols", "f_width", "f_unit",
+                "f_align", "f_border", "f_spacing", "f_padding"];
+  var param = new Object();
+  for (var i in fields) {
+    var id = fields[i];
+    var el = document.getElementById(id);
+    param[id] = el.value;
+  }
+  __dlg_close(param);
+  return false;
+};
+
+function onCancel() {
+  __dlg_close(null);
+  return false;
+};
+
+</script>
+
+<style type="text/css">
+html, body {
+  background: ButtonFace;
+  color: ButtonText;
+  font: 11px Tahoma,Verdana,sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+body { padding: 5px; }
+table {
+  font: 11px Tahoma,Verdana,sans-serif;
+}
+form p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.fl { float: left; padding: 2px 5px; text-align: right; }
+.fr { float: left; padding: 2px 5px; text-align: right; }
+fieldset { padding: 0px 10px 5px 5px; }
+select, input, button { font: 11px Tahoma,Verdana,sans-serif; }
+button { width: 70px; }
+.space { padding: 2px; }
+
+.title { background: #ddf; color: #000; font-weight: bold; font-size: 120%; padding: 3px 10px; margin-bottom: 10px;
+border-bottom: 1px solid black; letter-spacing: 2px;
+}
+form { padding: 0px; margin: 0px; }
+</style>
+
+</head>
+
+<body onload="Init()">
+
+<div class="title">Вставить таблицу</div>
+
+<form action="" method="get">
+<table border="0" width="480" style="padding: 0px; margin: 0px">
+  <tbody>
+
+  <tr>
+    <td style="text-align: right">Число строк:</td>
+    <td><input type="text" name="rows" id="f_rows" size="5" title="Число строк в создаваемой таблице" value="2" /></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="text-align: right">Число столбцов:</td>
+    <td><input type="text" name="cols" id="f_cols" size="5" title="Число столбцов в создаваемой таблице " value="4" /></td>
+    <td style="text-align: right">Ширина столбцов:</td>
+    <td><input type="text" name="width" id="f_width" size="5" title="Ширина столбцов в создаваемой таблице" value="100" /></td>
+    <td><select size="1" name="unit" id="f_unit" title="Единица измерения">
+      <option value="%" selected="1"  >%</option>
+      <option value="px"              >Pixiel</option>
+      <option value="em"              >Em</option>
+    </select></td>
+  </tr>
+
+  </tbody>
+</table>
+
+<p />
+
+<fieldset style="float: left; margin-left: 5px;">
+<legend>Планировка</legend>
+
+<div class="space"></div>
+
+<div class="fl">выравнивание:</div>
+<select size="1" name="align" id="f_align"
+  title="Выранивание содержимого в ячейках таблицы">
+  <option value="" selected="1"                >не определено</option>
+  <option value="left"                         >по левому краю</option>
+  <option value="right"                        >по правому краю</option>
+  <option value="top"                          >по верхнему краю</option>
+  <option value="bottom"                       >по нижнему краю</option>
+  <option value="texttop"                      >текст сверху</option>
+  <option value="middle"                       >по центру</option>
+  <option value="absmiddle"                    >по центру (abs)</option>
+  <option value="baseline"                     >по базовой линии</option>
+</select>
+
+<p />
+
+<div class="fl">толщина линии:</div>
+<input type="text" name="border" id="f_border" size="5" value="1"
+title="Оставьте поле пустым, если не хотите выводить рамку" />
+<!--
+<p />
+
+<div class="fl">Collapse borders:</div>
+<input type="checkbox" name="collapse" id="f_collapse" />
+-->
+<div class="space"></div>
+
+</fieldset>
+
+<fieldset style="float:right;">
+<legend>Пустое пространство</legend>
+
+<div class="space"></div>
+
+<div class="fr">межклеточное расстояние:</div>
+<input type="text" name="spacing" id="f_spacing" size="5" value="1"
+title="Расстояние между смежными ячейками" />
+
+<p />
+
+<div class="fr">межклеточный отступ:</div>
+<input type="text" name="padding" id="f_padding" size="5" value="1"
+title="Расстояние между ячейками и границами таблицы" />
+
+<div class="space"></div>
+
+</fieldset>
+
+<div style="margin-top: 85px; border-top: 1px solid #999; padding: 2px; text-align: right;">
+<button type="button" name="ok" onclick="return onOK();">Вставить</button>
+<button type="button" name="cancel" onclick="return onCancel();">Отмена</button>
+</div>
+
+</form>
+
+</body>
+</html>

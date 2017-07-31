@@ -1,0 +1,105 @@
+div.lTreeItem {
+	border:			0px;
+
+
+	color:			#000;
+
+/*	cursor:			default;*/
+	margin:			0px;
+
+	background-color:	#f1f4f7;
+	width:			100%;
+	height:			16px;
+
+	cursor:			move;
+}
+
+div.lTreeItemActive {
+	border:			0px;
+
+	background-color:       #0A246A;
+	color:			#FFF;
+}
+
+div.lTreeSeparator {
+	border:			0px;
+	height:			2px;
+
+	width:			90%;
+
+	background-color:	#FFF;
+	font-size:		0px;
+
+	border:			#FFF 3px solid;
+}
+
+div.lTreeSeparatorActive {
+	background-color:       #0A246A;
+	font-size:		0px;
+
+	border:			#FFF 3px solid;
+}
+
+div.lTreePlacer {
+	margin-left:		20px;
+}
+
+div.lTreeClonedNode {
+	font-family:		Verdana;
+	font-size:		12px;
+	border:			0px;
+	height:			15px;
+
+	color:			#CCC;
+
+	cursor:			default;
+
+	position:		absolute;
+	top:			0px;
+
+	display:		none;
+	left:			0px;
+
+}
+
+div.lTreePM {
+	display:		inline;
+	margin-right:		5px;
+	cursor:			pointer;
+	float:left;
+}
+
+div.lTreeControlDiv {
+	float:			right;
+}
+
+a.lTreeLink {
+	cursor:			hand;
+}
+
+
+.lTreeDomainGroup {
+	margin-bottom:		15px;
+}
+
+div.lTreeSeparatorTest {
+	border:			0px;
+	height:			2px;
+
+	width:			90%;
+
+	background-color:       red;
+	font-size:		0px;
+
+	border:			#FFF 3px solid;
+
+}
+
+div.lTreeContainer {
+	margin-right:		50px;
+}
+
+
+div.lTreeDomainItem {
+	cursor:			default;
+}

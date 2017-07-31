@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" media="Mozilla" href="/styles/xsl_lite/style.xsl" ?>
+<!DOCTYPE HTML [
+<!ENTITY nbsp "&#160;">
+
+
+<!ATTLIST table
+	height CDATA #IMPLIED
+>
+]>
+
+<umicms>
+	<title>%title% (lite skin)</title>
+	<header>%header%</header>
+
+	<navibar>
+%adm_navibar%
+	</navibar>
+
+	<menu>
+%adm_menu%
+	</menu>
+
+	<langs>
+%config lang_list()%
+	</langs>
+
+	<content>
+%content%
+
+	</content>
+
+	<module><![CDATA[%core curr_module()%]]></module>
+	<pre_lang><![CDATA[%pre_lang%]]></pre_lang>	
+	<domain><![CDATA[%domain%]]></domain>
+	<versionLine><![CDATA[%current_version_line%]]>	</versionLine>
+
+	<userInfo>
+		<id><![CDATA[%current_user_id%]]></id>
+		<login><![CDATA[%users get_user_info('%current_user_id%', '%login%')%]]></login>
+		<firstName><![CDATA[%users get_user_info('%current_user_id%', '%first_name%')%]]></firstName>
+		<lastName><![CDATA[%users get_user_info('%current_user_id%', '%last_name%')%]]></lastName>
+		<middleName><![CDATA[%users get_user_info('%current_user_id%', '%father_name%')%]]></middleName>
+	</userInfo>
+
+	<help>
+		%context_help%
+	</help>
+	
+	<phrases>
+%config lang_phrases()%
+	</phrases>
+</umicms>

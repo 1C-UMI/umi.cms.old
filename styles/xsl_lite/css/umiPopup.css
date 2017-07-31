@@ -1,0 +1,19 @@
+div.umiPopupContainerDiv {
+	background-color:	#EEE;
+
+	filter:			alpha(opacity = 40);
+	-moz-opacity:		0.4;
+}
+
+div.umiPopupWindowDiv {
+	background-color:	#FFF;
+	border:			#959A9F 1px solid;
+}
+
+iframe.umiPopupIframe {
+	border:			0px;
+}
+
+div.umiPopupWindowDiv h1 {
+	font-size:		14px;
+}

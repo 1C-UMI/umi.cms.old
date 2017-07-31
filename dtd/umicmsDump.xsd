@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="umicmsDump">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="siteName"/>
+        <xs:element ref="domain"/>
+        <xs:element ref="generateTime"/>
+        <xs:element maxOccurs="unbounded" ref="element"/>
+        <xs:element maxOccurs="unbounded" ref="object"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="siteName" type="xs:string"/>
+  <xs:element name="generateTime">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="timestamp"/>
+        <xs:element ref="RFC"/>
+        <xs:element ref="UTC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="element">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+        <xs:element ref="link"/>
+        <xs:element ref="templateId"/>
+        <xs:element ref="lang"/>
+        <xs:element ref="domain"/>
+        <xs:element ref="behaviour"/>
+        <xs:element ref="updateTime"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="objectId" use="required" type="xs:integer"/>
+      <xs:attribute name="parentId" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="link" type="xs:anyURI"/>
+  <xs:element name="templateId" type="xs:integer"/>
+  <xs:element name="lang">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:NCName">
+          <xs:attribute name="prefix" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="behaviour">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="title"/>
+        <xs:element ref="module"/>
+        <xs:element ref="method"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="module" type="xs:NCName"/>
+  <xs:element name="method" type="xs:NCName"/>
+  <xs:element name="updateTime">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="timestamp"/>
+        <xs:element ref="RFC"/>
+        <xs:element ref="UTC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="object">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+        <xs:element maxOccurs="unbounded" ref="propertiesBlock"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="isLocked" use="required" type="xs:integer"/>
+      <xs:attribute name="typeId" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="propertiesBlock">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+        <xs:element ref="title"/>
+        <xs:element maxOccurs="unbounded" ref="property"/>
+      </xs:sequence>
+      <xs:attribute name="isLocked" use="required" type="xs:integer"/>
+      <xs:attribute name="isPublic" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="property">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+        <xs:element ref="title"/>
+        <xs:element ref="fieldType"/>
+        <xs:element ref="isMultiple"/>
+        <xs:element ref="isIndexed"/>
+        <xs:element ref="isFilterable"/>
+        <xs:element ref="guideId"/>
+        <xs:element ref="tip"/>
+        <xs:element ref="values"/>
+      </xs:sequence>
+      <xs:attribute name="isLocked" use="required" type="xs:integer"/>
+      <xs:attribute name="isPublic" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fieldType" type="xs:NCName"/>
+  <xs:element name="isMultiple" type="xs:integer"/>
+  <xs:element name="isIndexed" type="xs:integer"/>
+  <xs:element name="isFilterable" type="xs:integer"/>
+  <xs:element name="guideId" type="xs:integer"/>
+  <xs:element name="tip">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="values">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="value"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="value">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="RFC"/>
+        <xs:element ref="UTC"/>
+        <xs:element ref="timestamp"/>
+      </xs:choice>
+      <xs:attribute name="id" type="xs:integer"/>
+      <xs:attribute name="link" type="xs:anyURI"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="domain" type="xs:anyURI"/>
+  <xs:element name="timestamp" type="xs:integer"/>
+  <xs:element name="RFC" type="xs:string"/>
+  <xs:element name="UTC" type="xs:dateTime"/>
+  <xs:element name="name" type="xs:string"/>
+  <xs:element name="title" type="xs:string"/>
+</xs:schema>

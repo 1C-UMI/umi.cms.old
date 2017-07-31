@@ -1,0 +1,46 @@
+table.symlinkInputTable {
+	height: 200px;
+	border-spacing: 0px
+}
+
+td.symlinkInputTdLeft {
+	text-align:		center;
+	width:			400px;
+}
+
+td.symlinkInputTdMiddle {
+	text-align:		center;
+	width:			50px;
+}
+
+td.symlinkInputTdRight {
+	text-align:		center;
+	width:			400px;
+}
+
+
+select.symlinkInputFromInput {
+	padding: 0px;
+	margin: 0px;
+	width:			400px;
+	height:			200px;
+}
+
+select.symlinkInputToInput {
+	padding: 0px;
+	margin: 0px;
+	width:			400px;
+	height:			200px;
+}
+
+input.symlinkInputToRight {
+	margin: 5px 15px;
+	display:		block;
+	font-weight:		bold;
+}
+
+input.symlinkInputToLeft {
+	margin: 5px 15px;
+	display:		block;
+	font-weight:		bold;
+}

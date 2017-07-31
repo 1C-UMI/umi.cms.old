@@ -1,0 +1,170 @@
+div.contentTreeContainer {
+	margin-bottom:		25px;
+	clear:			both;
+}
+
+div.contentTreeContainerSpacer {
+	clear:			both;
+}
+
+div.contentTreeDomainContainer {
+	height:			16px;
+/*	background-color:	#F1F4F7; */
+
+	margin-top:		4px;
+	margin-bottom:		4px;
+
+	clear:			both;
+}
+
+div.contentTreeDomainTitle {
+	color:			#3281CD;
+	height:			16px;
+}
+
+div.contentTreeDomainSwitcher {
+	width:			16px;
+	height:			16px;
+
+	float:			left;
+
+	background-image:	url('/images/cms/admin/full/tree/minus_gray.gif');
+}
+
+div.contentTreeDomainSwitcherExpanded {
+	background-image:	url('/images/cms/admin/full/tree/minus.gif');
+}
+
+div.contentTreeDomainSwitcherRolled {
+	background-image:	url('/images/cms/admin/full/tree/plus.gif');
+}
+
+div.contentTreeDomainIco {
+	width:			16px;
+	height:			16px;
+
+	float:			left;
+
+	margin-left:		6px;
+	margin-right:		8px;
+
+	background-image:	url('/images/cms/admin/full/tree/ico_domain.gif');
+}
+
+div.contentTreeDomainChildsContainer {
+	margin-left:		20px;
+}
+
+
+
+
+div.contentTreePageContainer {
+	clear:			both;
+}
+
+div.contentTreePageTitle {
+	color:			#3281CD;
+	height:			16px;
+
+	cursor:			move;
+}
+
+div.contentTreePageTitleActive {
+	color:			#FFF;
+	background-color:	darkblue;
+}
+
+div.contentTreePageSwitcher {
+	width:			16px;
+	height:			16px;
+
+	float:			left;
+
+	background-image:	url('/images/cms/admin/full/tree/minus_gray.gif');
+}
+
+div.contentTreePageSwitcherExpanded {
+	background-image:	url('/images/cms/admin/full/tree/minus.gif');
+	cursor:			pointer;
+}
+
+div.contentTreePageSwitcherRolled {
+	background-image:	url('/images/cms/admin/full/tree/plus.gif');
+	cursor:			pointer;
+}
+
+div.contentTreePageIco {
+	width:			16px;
+	height:			16px;
+
+	float:			left;
+
+	margin-left:		6px;
+	margin-right:		8px;
+
+	background-image:	url('/images/cms/admin/full/tree/ico_page.gif');
+}
+
+div.contentTreePageChildsContainer {
+	margin-left:		20px;
+	clear:			both;
+}
+
+div.contentTreePageSeparator, div.contentTreeDomainSeparator {
+	height:			4px;
+	background-color:	#FFF;
+
+	clear:			both;
+
+	font-size:		0px;
+}
+
+div.contentTreePageSeparatorActive, div.contentTreeDomainSeparatorActive {
+	background-color:	darkblue;
+}
+
+div.contentTreePageLineContainer {
+	height:			16px;
+	background-color:	#F1F4F7;
+
+	margin-top:		1px;
+	margin-bottom:		1px;
+}
+
+div.contentTreePageControls {
+	width:			250px;
+	height:			16px;
+	float:			right;
+}
+
+div.contentTreePageControlsButton, a.contentTreePageControlsButton {
+	width:			16px;
+	height:			16px;
+
+	float:			right;
+
+	cursor:			pointer;
+
+	background-position:	center center;
+	margin-left:		5px;
+}
+
+div.contentTreePageLineContainerCopy {
+	background-color:	#FFDA31;
+}
+
+div.contentTreeDomainSeparatorObj {
+	height:			20px;
+	clear:			both;
+}
+
+span.contentTreeActivePage {
+}
+
+span.contentTreeUnActivePage {
+	color:			#80ADD9;
+}
+
+div.contentTreePageTitleHover {
+	background-color:	#D0D7DD;
+}

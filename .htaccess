@@ -1,0 +1,27 @@
+RewriteEngine On
+
+#Setting error-doc pages to reffer on our cms
+#ErrorDocument 404 /index.php
+#ErrorDocument 404 /errors/404/
+#ErrorDocument 403 /errors/403/
+
+
+#Reffer for robot.txt files...
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^robots\.txt$  /sbots.php?path=$1%{QUERY_STRING} [L]
+
+#Setting redirection rules for typical cms-mode
+RewriteCond %{REQUEST_URI} !styles
+RewriteCond %{REQUEST_URI} !css
+RewriteCond %{REQUEST_URI} !^js
+RewriteCond %{REQUEST_URI} !images
+RewriteCond %{REQUEST_URI} !webstat
+RewriteCond %{REQUEST_URI} !catalog_debug
+RewriteCond %{REQUEST_FILENAME} !-f
+
+#deny from all
+#allow from 195.135.235.174
+
+RewriteRule ^([^\.]*)$ /index.php?path=$1&%{QUERY_STRING} [L]
+#RewriteRule ^(.*)$ index.php?path=$1&%{QUERY_STRING} [L]
+#RewriteRule ^(.*)$ index.html [L]

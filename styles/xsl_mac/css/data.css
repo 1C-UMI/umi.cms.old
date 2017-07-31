@@ -1,0 +1,131 @@
+/* шаблоны данных*/
+div.dataGroupContainer {
+	font-family: Tahoma;
+	border:			#C0C0C0 1px solid;
+	height:			auto;
+}
+
+div.dataGroupContainerHidden {
+	border:			#E7E7E7 1px solid;
+}
+
+
+div.dataGroupLineDrag, div.dataFieldLineDrag {
+	width:			18px;
+	height:			18px;
+	float:			left;
+
+	cursor:			move;
+	background: url('/images/cms/admin/mac/ico_data_drag_a.gif') 2px 1px no-repeat 
+	/*background-image:	url('/images/cms/admin/mac/ico_data_drag_a.gif');
+	background-repeat:	no-repeat;*/
+}
+
+div.dataFieldLineDrag {
+	width:			20px;
+	height:			18px;
+	background-color:	#fafafa;
+	padding:		0px;
+	margin:			0px;
+}
+
+
+div.dataGroupLine {
+	width:			100%;
+	height:			18px;
+	background-color:	#E3E9EF;
+	clear:			both;
+
+	margin-bottom:		3px;
+
+	border-bottom:		#C0C0C0 1px solid;
+}
+
+div.dataGroupLineHidden {
+	background-color:	#F4F7F9;
+	border-bottom:		#E7E7E7 1px solid;
+}
+
+
+div.dataGroupLineTitle {
+	font-weight:		bold;
+	vertical-align:		middle;
+	padding-top:		2px;
+	padding-left:		25px;
+}
+
+
+div.dataGroupFieldContainer {
+	width:			97%;
+	height:			18px;
+
+	margin-left:		25px;
+	background-color:	#E3E9EF;
+
+	border:			#fafafa 1px solid;
+}
+
+div.dataGroupFieldContainerHidden {
+	background-color:	#F4F7F9;
+}
+
+
+div.dataGroupFieldLineTitle {
+	padding-top:		1px;
+	padding-left:		25px;
+}
+
+
+div.dataGroupFIeldSpacer {
+	width:			95%;
+	height:			3px;
+	margin-left:		46px;
+	margin-top:		1px;
+	margin-bottom:		1px;
+	background-color:	#FFF;
+	font-size:		0px;
+}
+
+div.dataGroupFIeldSpacerActive {
+	background-color:	#FF7E00;
+}
+
+div.dataGroupSpacer {
+	width:			100%;
+	height:			2px;
+
+	margin-top:		5px;
+	margin-bottom:		5px;
+
+	background-color:	#FFF;
+
+	font-size:		0px;
+}
+
+div.dataGroupSpacerActive {
+	background-color:	#FF7E00;
+}
+
+div.dataGroupFieldLineControls {
+	float: right;
+	width: 40px;
+	height:	16px;
+	margin-top:	1px;
+}
+
+div.dataGroupLineControls {
+	float:			right;
+
+	width:			52px;
+	height:			16px;
+
+	margin-top:		1px;
+}
+
+div.dataFieldAddDiv {
+	margin-top:		7px;
+	margin-left:		20px;
+}
+div.dataFieldAddDiv table {
+	width: auto
+}

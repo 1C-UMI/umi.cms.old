@@ -1,0 +1,259 @@
+.normal_link
+{
+color: #003965;
+font-size: 10px;
+font-family: Verdana, Arial;
+text-decoration: underline;
+}
+
+.normal_link:hover
+{
+color: #003965;
+font-size: 10px;
+font-family: Verdana, Arial;
+text-decoration: none;
+}
+
+.blue_bold_link
+{
+color: #003965;
+font-size: 10px;
+font-family: Verdana, Arial;
+text-decoration: underline;
+font-weight: bold;
+}
+
+.blue_bold_link:hover
+{
+color: #003965;
+font-size: 10px;
+font-family: Verdana, Arial;
+text-decoration: underline;
+font-weight: bold;
+}
+
+.gray_bold_link
+{
+color: #9B9B9B;
+font-size: 10px;
+font-family: Verdana, Arial;
+text-decoration: underline;
+font-weight: bold;
+}
+
+.gray_bold_link:hover
+{
+color: #9B9B9B;
+font-size: 10px;
+font-family: Verdana, Arial;
+text-decoration: underline;
+font-weight: bold;
+}
+
+.white_bold_link
+{
+color: #FFFFFF;
+font-size: 10px;
+font-family: Verdana, Arial;
+text-decoration: underline;
+font-weight: bold;
+}
+
+.white_bold_link:hover
+{
+color: #FFFFFF;
+font-size: 10px;
+font-family: Verdana, Arial;
+text-decoration: underline;
+font-weight: bold;
+}
+
+.red_bold_link
+{
+color: #FF0000;
+font-size: 10px;
+font-family: Verdana, Arial;
+text-decoration: underline;
+font-weight: bold;
+}
+
+.red_bold_link:hover
+{
+color: #FF0000;
+font-size: 10px;
+font-family: Verdana, Arial;
+text-decoration: none;
+font-weight: bold;
+}
+
+.nbsp 
+{
+width:10;
+font-size:8px;
+}
+
+.bold_font
+{
+font-size: 10px;
+font-family: Verdana, Arial;
+font-weight: bold;
+color: #000000;
+}
+
+.normal_font
+{
+font-size: 10px;
+font-family: Verdana, Arial;
+font-weight: normal;
+color: #000000;
+}
+
+.blue_font
+{
+font-size: 11px;
+font-family: Verdana, Arial;
+font-weight: bold;
+color: #003965;
+}
+
+.gray_font
+{
+font-size: 10px;
+font-family: Verdana, Arial;
+font-weight: normal;
+color: #9B9B9B;
+}
+
+.white_font
+{
+font-size: 10px;
+font-family: Verdana, Arial;
+font-weight: normal;
+color: #FFFFFF;
+}
+
+.input_faq_form
+{
+background-color: #FFFFFF;
+border-top: #9B9B9B 1px solid;
+border-bottom: #9B9B9B 1px solid;
+border-left: #9B9B9B 1px solid;
+border-right: #9B9B9B 1px solid;
+width: 115;
+font-size: 10px;
+font-family: Verdana, Arial;
+color: #000000;
+}
+
+.textarea_faq_form
+{
+background-color: #FFFFFF;
+border-top: #9B9B9B 1px solid;
+border-bottom: #9B9B9B 1px solid;
+border-left: #9B9B9B 1px solid;
+border-right: #9B9B9B 1px solid;
+width: 248;
+height: 100;
+font-size: 10px;
+font-family: Verdana, Arial;
+color: #000000;
+}
+
+
+.input_edit_form
+{
+background-color: #FFFFFF;
+border-top: #9B9B9B 1px solid;
+border-bottom: #9B9B9B 1px solid;
+border-left: #9B9B9B 1px solid;
+border-right: #9B9B9B 1px solid;
+width: 415;
+font-size: 10px;
+font-family: Verdana, Arial;
+color: #000000;
+}
+
+.input_edit_url_form
+{
+background-color: #FFFFFF;
+border-top: #9B9B9B 1px solid;
+border-bottom: #9B9B9B 1px solid;
+border-left: #9B9B9B 1px solid;
+border-right: #9B9B9B 1px solid;
+width: 215;
+font-size: 10px;
+font-family: Verdana, Arial;
+color: #000000;
+}
+
+.select_edit_form
+{
+background-color: #E8E8E8;
+border-top: #9B9B9B 1px solid;
+border-bottom: #9B9B9B 1px solid;
+border-left: #9B9B9B 1px solid;
+border-right: #9B9B9B 1px solid;
+width: 215;
+font-size: 10px;
+font-family: Verdana, Arial;
+color: #003965;
+}
+
+.submit_edit_form
+{
+background-color: #CCCCCC ;
+border-top: #9B9B9B 1px solid;
+border-bottom: #9B9B9B 1px solid;
+border-left: #9B9B9B 1px solid;
+border-right: #9B9B9B 1px solid;
+width: 115;
+font-size: 10px;
+font-weight: bold;
+font-family: Verdana, Arial;
+color: #FFFFFF;
+}
+
+.submit_delete_edit_form
+{
+background-color: #FF6600;
+border-top: #9B9B9B 1px solid;
+border-bottom: #9B9B9B 1px solid;
+border-left: #9B9B9B 1px solid;
+border-right: #9B9B9B 1px solid;
+width: 115;
+font-size: 10px;
+font-weight: bold;
+font-family: Verdana, Arial;
+color: #FFFFFF;
+}
+
+p {
+  text-align: justify;
+  margin: 15px;
+}
+
+.adm_table_line {
+  background-color: #F7F7F7;
+  border: 1 solid white;
+}
+
+.adm_table_header {
+  background-color: #C7C7C7;
+  border: 1 solid white;
+  color: #000000;
+  font-weight: bold;
+}
+
+.adm_table_link {
+  background-color: #E7E7E7;
+  border: 1 solid white;
+  color: #000000;
+  font-weight: bold;
+}
+
+.adm_table_footer {
+  background-color: #A7A7A7;
+  border: 1 solid white;
+  color: #000000;
+  font-weight: bold;
+}

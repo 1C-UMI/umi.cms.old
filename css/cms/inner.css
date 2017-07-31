@@ -1,0 +1,82 @@
+#left {
+	width: 230px
+}
+#center {
+	width: 460px;
+	padding: 0 10px
+}
+	#center h2 {
+		margin: 12px 0;
+		font-size: 28px
+	}
+#right {
+	float: right;
+	width: 230px
+}
+#submenu {
+	margin-right: 20px;
+	padding: 5px 20px;
+	background: #f2f2f2 url(/images/orange_line.gif) repeat-y
+}
+	#submenu li {
+		margin: 15px 5px;
+		font-weight: bold;
+	}
+	#submenu ul {
+		margin: 5px 0;
+		padding: 5px 10px;
+		background: #fff
+	}
+		#submenu ul li {
+			margin: 5px 0;
+			padding-left: 15px;
+			font-weight: normal
+		}
+		#submenu li.active {
+			color: #ff6400;
+			
+		}
+#promo {
+	margin: 10px 20px 0 0;
+	background: #f8ecec
+}
+	#promo h2, #promo h3{
+		font-weight: bold;
+		color: #cb4747
+	}
+	#promo .description {
+		padding: 10px;
+		background: #fff
+	}
+		#promo img {
+			margin: 5px 0
+		}
+
+
+#center select, #center textarea {
+	font-size: 11px
+	padding: 1px;
+	color: #777;
+	border: #95aec5 1px solid;
+}
+
+#center select, {
+	height: 18px;
+}
+
+
+td.hforum {
+	padding: 10px 10px 10px 0px;
+	font-weight: bold;
+}
+
+td.nforum {
+	padding: 5px 5px 5px 0px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#download_info {
+	padding: 10px;
+	margin-top: 10px;
+	background-color: #EEEEEE;
+}

@@ -1,0 +1,196 @@
+a.go {
+	float: right;
+	margin-top: 5px
+}
+
+#news {
+	float: left;
+	width: 305px;
+	margin: 0 20px;
+	background: #e8f1fa
+}
+	#news .item {
+		margin-bottom: 25px
+	}
+		#news .item .date {
+			color: #787b81
+		}
+		#news .item .title {
+			display: block;
+			padding: 3px 0 7px
+		}
+		#news .item img {
+			display: block;
+			width: 50px;
+			height: 50px;
+			float: left;
+			margin: 0 10px 2px 0;
+			border: #fff 2px solid
+		}
+		#news .item .comments {
+			clear: both;
+			margin-top: 5px			
+		}
+	#news hr {
+		margin: 0 10px 10px;
+		height: 1px;
+		border: #f00 0px solid;
+		background: #b3d0ed
+	}
+	#news #archive,
+	#news #rss {
+		display: block;
+		height: 30px;
+		margin: 0 10px
+	}
+	#news #archive {
+		float: left;
+	}
+	#news #rss {
+		float: right
+	}
+	#news form {
+		clear: both;
+		margin-top: 40px;
+		padding: 10px;
+		background: #f6f9fd
+	}
+#forum, #shop {
+	background: #f2f2f2
+}
+	#forum h2 {
+		color: #888888
+	}
+	#forum .item {
+		padding: 10px;
+		margin-bottom: 2px;
+		background: #fbfbfb
+	}
+	#forum .author,
+	#forum .date {
+		padding-left: 10px
+	}
+#promo h3 {
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #cb4747
+}
+#promo img {
+	float: left;
+	margin: 0 10px 0px 0
+}
+#shop {
+	clear: both;
+	margin: 20px 0;
+}
+	#shop h2 {
+		color: #888888
+	}
+	#shop .second-column {
+		float: left;
+		width: 265px
+	}
+		#shop .first-column #card,
+		#shop .second-column ul {
+			padding: 10px 10px 10px 20px;
+			background: #fff
+		}
+	#shop .third-column {
+		float: left;
+		width: 650px;
+		margin-left: 10px
+	}
+		#shop .item {
+			float: left;
+			margin-left: 3px;
+			padding: 10px;
+			width: 302px;
+			background: #fff
+		}
+			#shop .item img {
+				margin: 0
+			}
+			#shop .item .description {
+				float: right
+			}
+			#shop .item .special-price {
+				position: absolute;
+				margin-top: 30px;
+				margin-left: 50px
+			}
+			#shop .item .name {
+				display: block;
+				margin-bottom: 5px;
+				font-size: 12px;
+				font-weight: bold
+			}
+			#shop .item .price {
+				margin-top: 5px;
+				font-size: 12px
+			}
+				#shop .price .old  {
+					text-decoration: line-through;
+				}
+				#shop .price .new {
+					font-weight: bold;
+					color: #cb4747
+				}
+	#shop #manager {
+		clear: both;
+		display: block;
+		width: 100%
+	}
+#faq {
+	float: left;
+	width: 265px;
+	margin-right: 20px;
+	background: #e8f7e4
+}
+	 #faq h2 {
+	 	color: #76c41a
+	 }
+	 #faq .item {
+	 	margin-bottom: 2px;
+	 	padding: 10px 10px 10px 25px;
+		background: url(/images/arrow.png) #f0faee no-repeat 10px 12px
+	 }
+	 #faq .input {
+	 	margin-left: 10px;
+		width: 175px
+	 }
+#gallery {
+	float: left;
+	width: 615px;
+	background: #f8f3e2
+}
+	#gallery h2 {
+		color: #b69a3b
+	}
+	#gallery p {
+		margin: 7px
+	}
+	#gallery .item {
+		float: left;
+		margin: 3px 0 0 3px;
+		padding: 10px;
+		width: 284px;
+		background: #fff
+	}
+		#gallery .item img {
+			float: left;
+			margin: 0 10px 3px 0
+		}
+		#gallery .item .special-price {
+			position: absolute;
+			margin-top: 30px;
+			margin-left: 50px
+		}
+		#gallery .item .title {
+			display: block;
+			margin-bottom: 2px;
+			font-weight: bold
+		}
+		#gallery .item .comments {
+			clear: both;
+			font-size: 10px;
+		}
